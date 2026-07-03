@@ -1,6 +1,13 @@
+import AppRoutes from './routes/AppRoutes';
+import Navbar from './components/layout/Navbar';
+
+
 function App(){
   return(
-    <h1> Welcome to Forge 🚀</h1>
+    <div>
+      <Navbar />
+      <AppRoutes />
+    </div>
   );
 }
 
