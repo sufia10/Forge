@@ -1,0 +1,44 @@
+.hero{
+    min-height: 100vh;
+}
+.hero-para{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 28px;
+}
+
+.h-paragraph{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-stats{
+    display: flex;
+    gap: 24px;
+}
+
+.hero h1{
+    text-align: center;
+}
