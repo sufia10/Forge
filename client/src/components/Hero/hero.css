@@ -1,38 +1,23 @@
 .hero{
     min-height: 100vh;
-    background-color: black;
-    background:
-    radial-gradient(circle at 50% 0%, rgba(128,0,255,.25) 0%, transparent 45%),
-    radial-gradient(circle at 10% 80%, rgba(128,0,255,.04) 0%, transparent 23%),
-    radial-gradient(circle at 85% 60%, rgba(128,0,255,.08) 0%, transparent 30%),
-        linear-gradient(
-            to right,
-            rgba(170, 59, 255, 0.04) 1px,
-            transparent 1px
-        ),
-        linear-gradient(
-            to bottom,
-            rgba(170, 59, 255, 0.04) 1px,
-            transparent 1px
-        ),
-
-        #0b0b0b;
-
-    background-size:
-        auto,
-        auto,
-        auto,
-
-        85px 85px,
-
-        85px 85px;
 }
+
 .hero-para{
     display:inline-block;
     justify-content: center;
     padding: 9px 20px;
     border-radius: 30px;
     border: 1px solid rgb(196,181,253);
+     background: rgba(255,255,255,0.08);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.25),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-top: 45px;
+     
 }
 
 .hero-para p{
@@ -72,14 +57,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    gap: 28px;
+    gap: 26px;
+    margin-bottom: 50px;
 }
 
 .h-paragraph{
     color: rgb(139, 138, 138);
-    font-size: 20px;
-    max-width: 600px;
+    font-size: 23px;
+    max-width: 750px;
     margin: 0 auto;
     text-align: center;
 }
@@ -104,15 +89,35 @@
     cursor:pointer;
 }
 
+.cta-btn:hover{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    transform: translateY(-2px);
+}
+
 .sec-btn{
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 15px 22px;
     font-size: 18px;
-    padding: 15px 20px;
-    border-radius: 13px;
-    border: 1px solid grey;
+    color: white;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.12);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+     box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.12),
+        0 10px 30px rgba(0,0,0,0.15);
     cursor: pointer;
+    transition: All.3s ease;
+}
+
+.sec-btn:hover{
+    background: rgba(255,255,255,.16);
+    border-color: rgba(255,255,255,.28);
+    transform: translateY(-2px);
 }
 .hero-stats{
     display: flex;

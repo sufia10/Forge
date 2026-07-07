@@ -1,0 +1,55 @@
+.marquee{
+    position: relative;
+    border-top: 0.5px solid rgb(146, 145, 145, 0.08);
+    border-bottom: 0.5px solid rgb(146, 145, 145, 0.08);
+    padding: 53px;
+    overflow: hidden;
+}
+
+.marquee-track{
+    display: flex;
+    animation: slide 38s linear  infinite;
+    white-space: nowrap;
+    width: max-content;
+    gap: 40px;
+}
+
+.marqueeList{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+    flex-shrink: 0;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+    to{
+         transform: translateX(calc(-50% - 23px));
+    }
+}
+.tech-list{
+    display: flex;
+    align-items: center;
+    gap:8px;
+
+    white-space: nowrap;
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+    background: rgb(146, 145, 145,0.5);
+
+    flex-shrink: 0;
+}
+
+.tech-list p{
+    color: rgb(146, 145, 145, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+}

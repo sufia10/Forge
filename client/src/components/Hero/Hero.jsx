@@ -4,6 +4,7 @@ import {Plus, Flame, ArrowRight, CircleCheck} from "lucide-react";
 function Hero(){
     return(
         <section className = "hero">
+
         <div className ='hero-content'>
             
             <div className="hero-para">
