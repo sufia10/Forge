@@ -1,6 +1,4 @@
-.hero{
-    min-height: 100vh;
-}
+
 
 .hero-para{
     display:inline-block;
@@ -45,7 +43,7 @@
 }
 
 .hero-content{
-    min-height: 100vh;
+    min-height: 92vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +56,7 @@
     justify-content: center;
     align-items: center;
     gap: 26px;
-    margin-bottom: 50px;
+    
 }
 
 .h-paragraph{
@@ -104,7 +102,7 @@
     color: white;
     border-radius: 14px;
     border: 1px solid rgba(255,255,255,0.18);
-    background: rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.03);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
      box-shadow:
@@ -115,9 +113,8 @@
 }
 
 .sec-btn:hover{
-    background: rgba(255,255,255,.16);
+    background: rgba(255,255,255,.12);
     border-color: rgba(255,255,255,.28);
-    transform: translateY(-2px);
 }
 .hero-stats{
     display: flex;

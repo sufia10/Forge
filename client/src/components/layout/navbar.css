@@ -41,7 +41,6 @@
 
 .navbar-links a:hover{
     color: rgb(216, 219, 225);
-    transform: translateY(-1px);
     transition: all 0.2s ease;
 }
 
@@ -53,7 +52,6 @@
 }
 .navbar-auth a:hover{
     color: rgb(216, 219, 225);
-    transform: translateY(-1px);
     transition: all 0.2s ease;
 }
 

@@ -1,6 +1,7 @@
 import Hero from '../../components/Hero/Hero'; 
 import Navbar from '../../components/layout/Navbar';
 import Marquee from '../../components/Marquee/Marquee';
+import Statscards from '../../components/Statscards/statscards';
 import './home.css'
 
 function Home(){
@@ -13,6 +14,7 @@ function Home(){
 
         <div>
              <Marquee />
+             <Statscards />
         </div>
         
         </div>

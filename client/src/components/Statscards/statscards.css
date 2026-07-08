@@ -1,0 +1,7 @@
+.card-arrangement{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    justify-content: center;
+    padding: 72px;
+}
