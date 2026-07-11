@@ -1,0 +1,89 @@
+.searchbar-main{
+    display: flex;
+    justify-content: left;
+    gap: 14px;
+    margin-top: 40px;
+    margin-left: 84px;
+}
+
+.searchbar-search{
+    /* flex: 1; */
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 550px;
+    padding: 13px 16px;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 25px;
+
+    background: rgba(255,255,255,.03);
+
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.06),
+        0 10px 30px rgba(0,0,0,.15);
+}
+
+.searchbar-search:focus-within{
+  border-color: rgba(124, 58, 237, 0.6);
+
+    box-shadow:
+        0 0 0 3px rgba(124, 58, 237, 0.12),
+        0 0 30px rgba(124, 58, 237, 0.15);
+}
+
+.searchbar-search svg{
+    color: rgb(113,113,122);
+    flex-shrink: 0;
+}
+
+.searchbar-search input{
+    flex: 1;
+
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: white;
+    font-size: 14px;
+}
+
+.searchbar-search input::placeholder{
+    color: rgb(113,113,122);
+}
+
+.searchbar-sort{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex: none;
+    padding: 13px 14px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,.12);
+    width:180px;
+    background: rgba(255,255,255,.03);
+
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.06),
+        0 10px 30px rgba(0,0,0,.15);
+
+    cursor: pointer;
+}
+
+.searchbar-sort p{
+    color: rgb(161,161,170);
+    font-size: 14px;
+}
+
+.searchbar-sort svg{
+    color: rgb(161,161,170);
+}

@@ -1,0 +1,35 @@
+.headerbar-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 890px
+}
+
+.headerbar-view{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    gap: 5px;
+    color: rgb(167, 139, 250);
+}
+
+.headerbar-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.headerbar-left h1{
+   font-size: 28px;
+   color: aliceblue;
+}
+
+.headerbar-left p{
+    font-size: 15px;
+    color: rgb(113, 113, 122);
+}
+
+.headerbar-view:hover {
+    color:rgb(196, 181, 253);
+}

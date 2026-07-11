@@ -1,0 +1,38 @@
+.filter-container{
+    margin-top: 30px;
+    display:flex;
+    justify-content: left;
+    gap: 18px;
+    padding: 8px 16px;
+    margin-left: 67px;
+    margin-top: 18px;
+}
+
+.filter-btn{
+    padding: 9px 17px;
+    outline: none;
+    border-radius: 999px;
+
+    border: 1px solid rgba(255,255,255,.12);
+
+    background: rgba(255,255,255,.03);
+
+    color: rgb(113,113,122);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all .3s ease;
+}
+
+.filter-btn.active{
+    color: rgb(190, 165, 230);
+    outline: none;
+    background: rgba(124,58,237,.20);
+
+    border: 1px solid rgba(124,58,237,.45);
+
+    box-shadow: 0 0 18px rgba(124,58,237,.22);
+}
