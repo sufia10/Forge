@@ -1,7 +1,7 @@
 import Headerbar from "../HeaderBar/Headerbar";
 import Searchbar from "../Searchbar/Searchbar";
 import Filterbar from "../Filterbar/Filterbar";
-import Projectcard from "../ProjectCard/Projectcard";
+import ProjectCards from "../ProjectCard/Projectcards";
 import Pagination from "../Pagination/Pagination";
 
 function Featuredprojects(){
@@ -10,7 +10,7 @@ function Featuredprojects(){
             <Headerbar />
             <Searchbar />
             <Filterbar />
-            <Projectcard />
+            <ProjectCards />
             <Pagination />
         </div>
     );
