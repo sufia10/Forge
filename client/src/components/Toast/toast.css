@@ -1,0 +1,51 @@
+.toast{
+    position: fixed;
+
+    bottom: 32px;
+    right: 32px;
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 16px 22px;
+
+    min-width: 260px;
+
+    border-radius: 18px;
+
+    background: rgba(17,24,39,.82);
+
+    border: 1px solid rgba(124,58,237,.35);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 12px 40px rgba(124,58,237,.18);
+
+    color: white;
+
+    z-index: 999;
+}
+
+.toast-icon{
+
+    width:34px;
+    height:34px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    background:rgb(124,58,237);
+
+    font-weight:700;
+}
+
+.toast-content h4{
+
+    font-size:15px;
+    font-weight:600;
+}

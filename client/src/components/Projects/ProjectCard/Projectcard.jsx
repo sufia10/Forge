@@ -1,5 +1,7 @@
 import "./projectcard.css";
 import { FaGithub } from "react-icons/fa";
+import Toast from "../../Toast/Toast"
+import { useState, useEffect } from "react";
 import {
     Star,
     Bookmark,
@@ -19,6 +21,34 @@ function ProjectCard({
     demo,
     upvotes,
 }) {
+
+    const [showToast, setShowToast] = useState(false);
+    const [toastMessage, setToastMessage] = useState("");
+
+    useEffect(()=>{
+      if (showToast) {
+        const timeOut = setTimeout(() =>{
+                 setShowToast(false); 
+        }, 2000)
+
+        return () => clearTimeout(timeOut);
+      }
+    }, [showToast]);
+
+
+   const [saved, setSaved] = useState(false);
+
+   function handleClick(){
+    if (saved){
+        setToastMessage("Project removed");
+    }
+    else{
+        setToastMessage("Project saved");
+    }
+    setSaved(!saved);
+    setShowToast(true);
+   }
+
     return (
         <article className="project-card">
 
@@ -31,9 +61,13 @@ function ProjectCard({
                     </span>
                 )}
 
-                <button className="bookmark-btn">
-                    <Bookmark size={18} />
-                </button>
+              <button
+    className={`bookmark-btn ${saved ? "saved" : ""}`}
+    onClick={handleClick}
+>
+    <Bookmark size={14}/>
+</button>
+                  
 
                 <img src={image} alt={title} />
 
@@ -104,6 +138,10 @@ function ProjectCard({
                 </div>
 
             </footer>
+
+            <Toast
+            message={toastMessage}
+            show={showToast} />
 
         </article>
     );

@@ -71,10 +71,10 @@
     top: 18px;
     right: 18px;
 
-    width: 38px;
-    height: 38px;
+    width: 28px;
+    height: 28px;
 
-    border: none;
+    border: 1px solid rgba(255,255,255,.10);
     border-radius: 50%;
 
     display: flex;
@@ -92,8 +92,9 @@
     transition: .25s;
 }
 
-.bookmark-btn:hover{
-    background: rgba(124,58,237,.85);
+
+.bookmark-btn.saved{
+    background: rgb(124,58,237);
 }
 
 /* ---------------- CONTENT ---------------- */
