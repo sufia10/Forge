@@ -55,3 +55,18 @@ src/
 ├── styles/
 └── App.jsx
 ```
+
+## Development Journey
+
+Forge is being developed incrementally using real-world software engineering practices. Every major milestone, architectural decision, challenge, and lesson learned is documented throughout the project's development.
+
+If you're interested in following how Forge evolves over time, take a look at the development journal:
+
+ **[Forge Development Log](./DEVLOG.md)**
+
+The development log includes:
+-  Major project milestones
+-  Architecture decisions
+-  React concepts and engineering practices learned
+-  Challenges encountered and how they were solved
+-  Progress throughout the project
