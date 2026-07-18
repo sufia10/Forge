@@ -1,28 +1,26 @@
 import "./statscard.css";
 
-function StatsCard(props) {
-    return(
-         <div className="statscard-container">
+function StatsCard({ icon: Icon, number, title, subtitle }) {
+    return (
+        <div className="statscard-container">
             <div className="text-container">
                 <div className="icon">
-                 {props.icon}
+                    <Icon size={18} />
                 </div>
-
-                <div className="gap">
-
-                <h2>{props.number}</h2>
-            <div className="statscard-p-one">
-                 <p>{props.title}</p>
-            </div>
-             <div className="statscard-p-two">
-                <p>{props.subtitle}</p>
+                <div className = "gap">
+                     <h2>{number}</h2>
                 </div>
-             </div>
-    
+                
+                <div className="statscard-p-one">
+                    <p>{title}</p>
+                </div>
+              
+                <div className="statscard-p-two">
+                    <p>{subtitle}</p>
+                </div>
+                
             </div>
-            
-         </div>
+        </div>
     );
 }
-
 export default StatsCard;

@@ -3,6 +3,7 @@ import Navbar from '../../components/layout/Navbar';
 import Marquee from '../../components/Marquee/Marquee';
 import Statscards from '../../components/Statscards/statscards';
 import Featuredprojects from '../../components/Projects/FeaturedProjects/Featuredprojects';
+import HowItWorks from '../../components/HowItWork/Howitworks';
 import './home.css'
 
 function Home(){
@@ -17,6 +18,7 @@ function Home(){
              <Marquee />
              <Statscards />
              <Featuredprojects />
+             <HowItWorks />
         </div>
         
         </div>
