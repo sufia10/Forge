@@ -1,16 +1,26 @@
 import "./stepcard.css";
 
+function Stepcard({ icon: Icon, numHeading, title, subtitle }) {
+    return (
+        <div className="step-card">
 
-function Stepcard({icon: Icon, numHeading, title,subtitle}){
-    return(
-       <div>
-          <h2> {numHeading} </h2>
-          <div>
-            <Icon />
-          </div>
-          <p> {title}</p>
-          <p> {subtitle} </p>
-       </div>
+            <h2 className="step-number">
+                {numHeading}
+            </h2>
+
+            <div className="step-icon">
+                <Icon size={18} />
+            </div>
+
+            <p className="step-title">
+                {title}
+            </p>
+
+            <p className="step-description">
+                {subtitle}
+            </p>
+
+        </div>
     );
 }
 

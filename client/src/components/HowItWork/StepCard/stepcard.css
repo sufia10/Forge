@@ -1,0 +1,90 @@
+.step-card {
+    flex: 1;
+
+    min-height: 300px;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+
+    background: #131313;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 16px;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+/* CARD HOVER */
+
+.step-card:hover {
+    box-shadow:
+        0 12px 35px rgba(124, 58, 237, 0.15);
+}
+
+
+/* NUMBER */
+
+.step-number {
+    margin: 0 0 22px;
+
+    font-size: 48px;
+    font-weight: 700;
+
+    line-height: 1;
+
+    color: rgba(124, 58, 237, 0.28);
+}
+
+
+/* ICON */
+
+.step-icon {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 26px;
+
+    border-radius: 50%;
+
+    background: rgba(124, 58, 237, 0.14);
+
+    border: 1px solid rgba(124, 58, 237, 0.25);
+
+    color: #9b7cff;
+}
+
+
+/* TITLE */
+
+.step-title {
+    margin: 0 0 12px;
+
+    color: #f5f5f5;
+
+    font-size: 18px;
+    font-weight: 650;
+}
+
+
+/* DESCRIPTION */
+
+.step-description {
+    margin: 0;
+
+    color: #70707c;
+
+    font-size: 15px;
+
+    line-height: 1.55;
+}
