@@ -5,6 +5,7 @@ import Statscards from '../../components/Statscards/statscards';
 import Featuredprojects from '../../components/Projects/FeaturedProjects/Featuredprojects';
 import HowItWorks from '../../components/HowItWork/Howitworks';
 import Shipmainpage from '../../components/ShipMainpage/Shipmainpage';
+import ShipCTA from '../../components/ShipCTA/Shipcta';
 import './home.css'
 
 function Home(){
@@ -21,6 +22,7 @@ function Home(){
              <Featuredprojects />
              <HowItWorks />
              <Shipmainpage />
+             <ShipCTA />
         </div>
         
         </div>
