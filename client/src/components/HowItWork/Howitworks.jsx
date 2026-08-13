@@ -17,6 +17,9 @@ function HowItWorks() {
 
             <Stepcards />
 
+           
+
+             
         </div>
     );
 }

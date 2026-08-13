@@ -1,6 +1,3 @@
-
-
-
 const HowCards = [
     {
         id: 1,
