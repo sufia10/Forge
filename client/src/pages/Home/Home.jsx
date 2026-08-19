@@ -6,6 +6,7 @@ import Featuredprojects from '../../components/Projects/FeaturedProjects/Feature
 import HowItWorks from '../../components/HowItWork/Howitworks';
 import Shipmainpage from '../../components/ShipMainpage/Shipmainpage';
 import ShipCTA from '../../components/ShipCTA/Shipcta';
+import Footer from '../../components/Footer/Footer';
 import './home.css'
 
 function Home(){
@@ -23,6 +24,7 @@ function Home(){
              <HowItWorks />
              <Shipmainpage />
              <ShipCTA />
+             <Footer />
         </div>
         
         </div>
