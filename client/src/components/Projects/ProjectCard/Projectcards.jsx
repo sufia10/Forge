@@ -6,7 +6,7 @@ import Pagination from "../Pagination/Pagination.jsx";
 
 function ProjectCards() {
 
-    const projectsPerPage = 4;
+    const projectsPerPage = 6;
     const [currentPage, setCurrentPage] = useState(1);
 
     const startIndex = (currentPage -1 )* projectsPerPage; 

@@ -4,6 +4,9 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
+import project9 from "../assets/project9.png";
 
 const projectData = [
     {
@@ -107,6 +110,56 @@ const projectData = [
         demo: "#",
         upvotes: "2.3k",
     },
+{
+    id: 7,
+    featured: false,
+    image: project7,
+    title: "Quantum Forms",
+    description:
+        "Type-safe form library for React with schema validation, nested objects, dynamic fields, and zero re-render optimization.",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    author: {
+        name: "Elena Vasquez",
+        avatar: "https://picsum.photos/seed/elena-vasquez/100/100",
+    },
+    github: "#",
+    demo: "#",
+    upvotes: "934",
+},
+
+{
+    id: 8,
+    featured: false,
+    image: project8,
+    title: "RustScript",
+    description:
+        "A Rust-based JavaScript runtime with native modules, 10x faster cold starts, and first-class WASM support.",
+    tags: ["TypeScript", "Docker", "AI"],
+    author: {
+        name: "Kai Andersen",
+        avatar: "https://picsum.photos/seed/kai-andersen/100/100",
+    },
+    github: "#",
+    demo: "#",
+    upvotes: "5.1k",
+},
+
+{
+    id: 9,
+    featured: false,
+    image: project9,
+    title: "Orbit CMS",
+    description:
+        "Headless CMS built for developers. Schema-based content modeling, type-safe client SDKs, and multi-region edge delivery.",
+    tags: ["Node.js", "MongoDB", "TypeScript"],
+    author: {
+        name: "Fatima Al-Rashid",
+        avatar: "https://picsum.photos/seed/fatima-al-rashid/100/100",
+    },
+    github: "#",
+    demo: "#",
+    upvotes: "1.7k",
+},
 ];
 
 export default projectData;
