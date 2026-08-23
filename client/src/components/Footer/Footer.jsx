@@ -11,7 +11,9 @@ import footerdata from "../../Data/footerdata";
 function Footer() {
 
     return (
-        <footer className="footer">
+<div>
+    <div className="footer-divider"></div>
+ <footer className="footer">
 
             <div className="footer-container">
 
@@ -127,6 +129,8 @@ function Footer() {
             </div>
 
         </footer>
+</div>
+       
     );
 }
 
