@@ -1,4 +1,5 @@
 import './hero.css'
+import "../Global/PurpleIcon/purpleicon.css";
 import {Plus, Flame, ArrowRight, CircleCheck} from "lucide-react";
 
 function Hero(){
@@ -7,7 +8,7 @@ function Hero(){
 
         <div className ='hero-content'>
             
-            <div className="hero-para">
+            <div className="purple-icon">
                 <p>
                     <Flame size={18} />
                     12,847 projects and counting

@@ -1,0 +1,24 @@
+.purple-icon{
+    display:inline-block;
+    justify-content: center;
+    padding: 9px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(196,181,253);
+     background: rgba(255,255,255,0.08);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.25),
+        inset 0 1px 0 rgba(255,255,255,0.08);
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-top: 45px;
+     
+}
+
+.purple-icon p{
+    color: rgb(196,181,253); 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

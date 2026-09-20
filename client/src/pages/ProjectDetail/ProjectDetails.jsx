@@ -1,4 +1,5 @@
 import projectdetailsbanner from "../../../src/assets/projectdetailsbanner.png";
+import Vectordb from "../../components/VectorDB Head/Vectordb";
 import "./projectdetails.css";
 
 function ProjectDetails() {
@@ -7,7 +8,8 @@ function ProjectDetails() {
             <div className="project-banner">
                < img src={projectdetailsbanner} alt="Project Details Banner" />
             </div>
-            
+
+            <Vectordb />
             <h1>Project Details</h1>
         </div>
     );
